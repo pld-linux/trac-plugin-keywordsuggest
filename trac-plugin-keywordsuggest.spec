@@ -23,7 +23,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %prep
 %setup -q -n %{plugin}
-#%patch0 -p1
 
 %build
 cd %{trac_ver}
