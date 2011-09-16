@@ -9,7 +9,7 @@ Group:		Applications/WWW
 # Source0Download:	http://trac-hacks.org/changeset/latest/keywordsuggestplugin?old_path=/&filename=keywordsuggestplugin&format=zip
 Source0:	%{plugin}.zip
 # Source0-md5:	ee0297ad52e6abdc9be18e7def8fee8b
-URL:		http://trac-hacks.org/wiki/%{plugin}
+URL:		http://trac-hacks.org/wiki/KeywordSuggestPlugin
 BuildRequires:	python-devel >= 1:2.4
 BuildRequires:	python-distribute
 BuildRequires:	python-modules
