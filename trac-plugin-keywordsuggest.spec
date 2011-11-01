@@ -14,7 +14,8 @@ BuildRequires:	python-distribute
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
 BuildRequires:	unzip
-Requires:	trac >= %{trac_ver}
+# if 0.12 cames into play, can simplify this
+Requires:	trac >= %{trac_ver}.7-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
